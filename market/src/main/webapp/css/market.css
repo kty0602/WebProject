@@ -147,3 +147,60 @@ td {
 	font-size: 70px;
 	margin-left: 580px;
 }
+
+/* 글쓰기 css */
+.write-main {
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 300px;
+    margin-left: 800px;
+    margin-bottom: 200px;
+    width: 1500px;
+    height: 1300px;
+}
+.headtext {
+	margin-top: 100px;
+	margin-left: 120px;
+	height: 60px;
+	width: 1249px;
+}
+.htitle {
+	height:60px;
+	width:1249px;
+	font-size:40px;
+}
+.bodytext {
+	background-color: lightgrey;
+	margin-top: 60px;
+	margin-left: 120px;
+	height: 760px;
+	width: 1250px;
+}
+.bcontent {
+	height: 760px;
+	width: 1250px;
+	font-size:35px;
+}
+.select {
+	margin-top: 20px;
+	margin-left: 120px;
+	font-size: 25px;
+}
+.but {
+	margin-top: 50px;
+	margin-left:645px;
+}
+.custombut {
+	margin:20px;
+	font-size:40px;
+}
+.custombut a {
+	text-decoration: none;
+}
+
+
+
+
+
+

@@ -8,7 +8,7 @@
 <title>중고나라</title>
 </head>
 <body>
-<div style="overflow: auto;">
+	<div style="overflow: auto;">
 		<nav>
 			<ul class = "nav-container">
 				<li class = "nav-item"><a href ="main.jsp">메인</a></li>

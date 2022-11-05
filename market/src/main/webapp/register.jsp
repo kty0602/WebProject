@@ -20,6 +20,7 @@
 		<div class = "register-main">
             <h1 class = "logo">회원가입</h1>
             <div class = "register-container">
+            <form>
 				<text class = "tt">*로그인</text>
                 <input type = "text" placeholder = "아이디" id = "r_id" class = "account">
                 <text  class = "tt">*비밀번호</text>
@@ -29,6 +30,7 @@
 				<text  class = "tt">*이메일</text>
 				<input type = "text" placeholder = "이메일" id = "r_email" class = "account">
                 <button id = "login" class = "button">회원 생성</button>
+            </form>
             </div>
         </div>
     </div>    
