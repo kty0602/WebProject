@@ -29,7 +29,7 @@
 				required></textarea>
 			</div>
 			<input type="file" name="SelectFile" class = "select"/></br>
-			<div class = "but">
+			<div class = "butt">
 			<button type="submit" class = "custombut"><a href = "board.jsp">작성</a></button>
 			<button type="submit" class = "custombut"><a href = "board.jsp">취소</a></button>
 			</div>
