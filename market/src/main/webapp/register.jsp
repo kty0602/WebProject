@@ -20,15 +20,15 @@
 		<div class = "register-main">
             <h1 class = "logo">회원가입</h1>
             <div class = "register-container">
-            <form>
-				<text class = "tt">*로그인</text>
-                <input type = "text" placeholder = "아이디" id = "r_id" class = "account">
+            <form method = "post" action = "RegisterAction.jsp">
+				<text class = "tt">*아이디</text>
+                <input type = "text" placeholder = "아이디" name = "userId" class = "account">
                 <text  class = "tt">*비밀번호</text>
-				<input type = "password" placeholder = "비밀번호" id = "r_password" class = "account">
+				<input type = "password" placeholder = "비밀번호" name = "userPw" class = "account">
 				<text  class = "tt">*사용할 닉네임</text>
-				<input type = "text" placeholder = "닉네임" id = "r_name" class = "account">
+				<input type = "text" placeholder = "닉네임" name = "userName" class = "account">
 				<text  class = "tt">*이메일</text>
-				<input type = "text" placeholder = "이메일" id = "r_email" class = "account">
+				<input type = "text" placeholder = "이메일" name = "userEmail" class = "account">
                 <button id = "login" class = "button">회원 생성</button>
             </form>
             </div>

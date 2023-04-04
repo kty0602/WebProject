@@ -20,9 +20,11 @@
 		<div class = "login-main">
             <h1 class = "logo">로그인</h1>
             <div class = "login-container">
-                <input type = "text" placeholder = "아이디" id = "id" class = "account">
-                <input type = "password" placeholder = "비밀번호" id = "password" class = "account">
-                <button id = "login" class = "button">로그인</button>
+            	<form method = "post" action = "LoginAction.jsp">
+                	<input type = "text" placeholder = "아이디" name = "userId" class = "account">
+                	<input type = "password" placeholder = "비밀번호" name = "userPw" class = "account">
+                	<button id = "login" class = "button">로그인</button>
+                </form>
             </div>
         </div>		
 	</div>

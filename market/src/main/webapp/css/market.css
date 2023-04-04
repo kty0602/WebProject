@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*공용 부분*/
 body {
-	background-image:url('배경.jpg');
+	background-image:url('배경2.jpg');
 	background-size:cover;
 	margin: 0;
 	height: 100vh;
@@ -10,17 +10,17 @@ body {
 
 /*main화면 부분*/
 .con1 {
-	width: 1100px;
+	width: 500px;
 	text-align: center;
-	margin-top: 300px;
-	margin-left: 990px;
+	margin-top: 150px;
+	margin-left: 530px;
     cursor: pointer;
 }
 .nav-container {
 	display: flex;
 	flex-direction: row;
 	width: 100%; 
-	height: 70px; 
+	height: 50px; 
 	margin: 0;  
 	padding: 0;  /*쓸 데 없는 공백 제거*/
 	background-color: darkslategrey; 
@@ -30,7 +30,7 @@ body {
 }
 .nav-item {
 	padding: 15px;
-	font-size: 30px;
+	font-size: 15px;
 	cursor: pointer;
 }
 .nav-item:hover { /*마우스를 올렷을 때*/
@@ -44,17 +44,17 @@ body {
 }
 
 .p {
-	font-size:200px;
-	color: darkorange;
+	font-size:100px;
+	color: #ff8000;
 }
 
 /*로그인 화면 부분*/
 .login-main {
     padding: 10px;
-    margin-top: 150px;
-    margin-left: 1100px;
-    width: 900px;
-    height: 750px;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 500px;
+    height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -63,14 +63,14 @@ body {
     border-radius: 5px;
 }
 .logo {
-    font-size: 90px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .account {
-    font-size: 2em;
-    height:70px;
-    width: 800px;
+    font-size: 1em;
+    height:40px;
+    width: 400px;
     display: block;
     margin-bottom: 3px;
     padding: 3px;
@@ -78,10 +78,10 @@ body {
     border-radius: 3px;
 }
 .button {
-    font-size: 3em;
-    margin-top:150px;
-    height:85px;
-    width:810px;
+    font-size: 2em;
+    margin-top:50px;
+    height:55px;
+    width:410px;
     background-color: lightskyblue;
     cursor: pointer;
     border-radius: 5px;
@@ -92,10 +92,10 @@ body {
 /*회원가입 부분 button, logo, hover 로그인css랑 같이 사용해서 따로 작성X*/
 .register-main {
     padding: 10px;
-    margin-top: 150px;
-    margin-left: 1100px;
-    width: 900px;
-    height: 1050px;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     background-color: gainsboro;
@@ -104,26 +104,27 @@ body {
     border-radius: 5px;
 }
 .tt {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color:red;
 }
+
 /* board 게시판 css */
 .board-main {
     border: 1px solid lightgrey;
     background-color: white;
     border-radius: 5px;
-    margin-top: 300px;
-    margin-left: 800px;
-    margin-bottom: 200px;
-    width: 1500px;
-    height: 1300px;
+    margin-top: 100px;
+    margin-left: 260px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 750px;
 }
-table {
+.boardtable {
     border: 1px solid lightgrey;
-    width: 1200px;
-    margin-top: 60px;
-    margin-left: 150px;
-    font-size: 30px;
+    width: 850px;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 15px;
     text-align: center;
 }
 th {
@@ -133,19 +134,30 @@ td {
     background-color: white;
 }
 .bt {
-    width: 150px;
-    margin-top: 60px;
-    margin-left: 1310px;
-    font-size: 25px;
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 850px;
+    font-size: 15px;
     justify-content: flex-end;
 }
 .bt a {
     text-decoration: none;
     color: black;
 }
+.nextbt {
+	width: 80px;
+	margin-top: 80px;
+	margin-left: 80px;
+	font-size: 15px;
+    justify-content: flex-end;
+}
+.nextbt a {
+	text-decoration: none;
+    color: black;
+}
 .h1 {
-	font-size: 70px;
-	margin-left: 580px;
+	font-size: 45px;
+	margin-left: 380px;
 }
 
 /* 글쓰기 css */
@@ -153,54 +165,74 @@ td {
     border: 1px solid lightgrey;
     background-color: white;
     border-radius: 5px;
-    margin-top: 300px;
-    margin-left: 800px;
+    margin-top: 100px;
+    margin-left: 400px;
     margin-bottom: 200px;
-    width: 1500px;
-    height: 1300px;
+    width: 750px;
+    height: 600px;
 }
 .headtext {
-	margin-top: 100px;
-	margin-left: 120px;
-	height: 60px;
-	width: 1249px;
+	margin-top: 40px;
+	margin-left: 50px;
+	height: 40px;
+	width: 650px;
 }
 .htitle {
-	height:60px;
-	width:1249px;
-	font-size:40px;
+	height:40px;
+	width:650px;
+	font-size:30px;
 }
 .bodytext {
 	background-color: lightgrey;
-	margin-top: 60px;
-	margin-left: 120px;
-	height: 760px;
-	width: 1250px;
+	margin-top: 20px;
+	margin-left: 50px;
+	height: 350px;
+	width: 650px;
 }
 .bcontent {
-	height: 760px;
-	width: 1250px;
-	font-size:35px;
+	height: 350px;
+	width: 650px;
+	font-size:15px;
 }
 .select {
 	margin-top: 20px;
-	margin-left: 120px;
-	font-size: 25px;
+	margin-left: 50px;
+	font-size: 15px;
 }
 .butt {
-	margin-top: 50px;
-	margin-left:645px;
+	margin-top: 20px;
+	margin-left:310px;
 }
 .custombut {
-	margin:20px;
-	font-size:40px;
+	margin:10px;
+	font-size:20px;
 }
 .custombut a {
 	text-decoration: none;
 }
 
-
-
-
-
-
+/* view css */
+.view-main {
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+    width: 750px;
+    height: 600px;
+}
+.viewtable {
+    border: 1px solid lightgrey;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 15px;
+    text-align: center;
+}
+.viewcustombut {
+	
+}
+.viewcustombut a {
+	text-decoration: none;
+}
